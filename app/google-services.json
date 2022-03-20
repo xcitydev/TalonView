@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "660281636105",
+    "project_id": "talonview-a80ff",
+    "storage_bucket": "talonview-a80ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660281636105:android:f6363bea699ab8befbcfd8",
+        "android_client_info": {
+          "package_name": "com.example.talonview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660281636105-ccc4vm5435qjb0bddg0keu5ef8tlipe8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.talonview",
+            "certificate_hash": "03b0b2a4601af378c427439e3907cf59b60fb3ef"
+          }
+        },
+        {
+          "client_id": "660281636105-l7m8fl4ecltnc5adh0feht7kr4n9sqdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvOurUwr2DACOqq5S1kKJMCZNRRqA4Thc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660281636105-l7m8fl4ecltnc5adh0feht7kr4n9sqdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

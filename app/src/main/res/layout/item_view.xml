@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:elevation="200dp"
+    android:outlineSpotShadowColor="@color/black"
+    android:outlineAmbientShadowColor="@color/black"
+    android:background="@drawable/border"
+    android:layout_height="70dp">
+    <ImageView
+        android:id="@+id/imgI"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/crp"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/coinName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/imgI"
+        android:gravity="center"
+        android:text="BTC"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+    <LinearLayout
+        android:padding="10px"
+        android:id="@+id/endM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/coinPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$ 46,453.54"
+            android:padding="10px"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/coinValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="+0.41%"
+            android:padding="10px"
+            android:textColor="@color/teal_700" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="20px"
+        android:id="@+id/endA"
+        android:layout_gravity="end"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="100px"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/coinAmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/coinEqv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+0.41%"
+            android:textSize="16sp"
+            android:textColor="@color/teal_700"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+    <ImageView
+        android:id="@+id/svgT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/ic_startup"/>
+
+    <TextView
+        android:id="@+id/wel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/svgT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="10px"
+        android:text="Welcome"
+        android:textColor="#4c56c0"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/wel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Talon View"
+        android:textColor="#459155"
+        android:padding="10px"
+        android:layout_below="@+id/wel"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/loginWel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cy"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/wel1"/>
+    <Button
+        android:id="@+id/signUpWel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cy"
+        android:text="SignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/loginWel"/>
+
+</RelativeLayout>
